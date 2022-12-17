@@ -323,6 +323,7 @@ fig.update_layout(geo=dict(bgcolor= '#f4f4f2'), title_text = 'Restaurants having
 
 
 app = dash.Dash(__name__)
+server = app.server
 
 
 # Next, we specify the layout of the app, which describes what the application is supposed to look like. We have used the components such as html.Div, html.H1, html.P, dcc.Dropdown, dcc.Slider and dcc.Graph.
