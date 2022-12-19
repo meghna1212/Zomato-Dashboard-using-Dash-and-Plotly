@@ -41,8 +41,8 @@ import seaborn as sns
 # In[2]:
 
 
-#file = "C://Users//Meghna//Desktop//Zomato Dashboard//zomato.csv"
-file = "D:\Thapar\Semester-7\Building Innovative Systems\Zomato Dashboard\zomato.csv"
+#file = "zomato.csv"
+file = "zomato.csv"
 df = pd.read_csv(file, encoding = "ISO-8859-1")
 #Encoding attribute is mentioned here as certain characters could not be read by the default encoding mechnaism
 
@@ -73,7 +73,7 @@ df.describe()
 
 
 #contry_code_df = pd.read_excel("C:\\Users\\Meghna\\Desktop\\Zomato Dashboard\\Country-Code.xlsx")
-contry_code_df = pd.read_excel("D:\Thapar\Semester-7\Building Innovative Systems\Zomato Dashboard\Country-Code.xlsx")
+contry_code_df = pd.read_excel("Country-Code.xlsx")
 
 
 # In[7]:
