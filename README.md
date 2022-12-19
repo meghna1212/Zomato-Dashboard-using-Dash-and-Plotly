@@ -1,4 +1,4 @@
-# Zomato-Dashboard-using-Dash-and-Plotly
+# Zomato Dashboard using Dash and Plotly
 
 # 1. Methodology
 1. Setup of the environment
